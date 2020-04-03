@@ -1,5 +1,5 @@
 // Business logic
-
+  // 
 
 function numberReplace(userNumber, nameInput) {
   var numArray = [];
@@ -26,9 +26,6 @@ function numberReplace(userNumber, nameInput) {
     };
     return numArray;
   }
-
-  
-
 }
 
 // flipped 
@@ -53,8 +50,6 @@ $(document).ready(function() {
     $("#reversed-result").click(function() {
       var reversedOutput = flipIt(result)
       $("#result").text(reversedOutput);
-    });
-
-    
+    })
   });
 });

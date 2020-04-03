@@ -45,6 +45,6 @@ _HTML, CSS, JavaScript, jQuery 3.4.1, Bootstrap_
 
 ### License
 
-*Licensed under [MIT]<https://en.wikipedia.org/wiki/MIT_License> license*
+*Licensed under [MIT](https://en.wikipedia.org/wiki/MIT_License) license*
 
 Copyright (c) 2020 **_Zinfira Safargalieva_**
