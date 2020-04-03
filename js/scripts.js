@@ -9,9 +9,10 @@ function numberReplace(userNumber, nameInput) {
 
     for (var i=0;  i <= userNumber;  i++) {
       var addString = i.toString();
-      
-      if (addString.includes("3")) {
+      if (addString.includes("3") && (userNumber % 3 === 0)) {
         numArray.push(" Won't you be my neighbor, " + nameInput + " ?");
+      } else if (addString.includes("3")) {
+        numArray.push(" Won't you be my neighbor?"); 
       } else if (addString.includes("2")) {
         numArray.push(" Boop!");
       } else if (addString.includes("1")) {
