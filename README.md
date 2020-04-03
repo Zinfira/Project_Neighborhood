@@ -37,7 +37,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_If you have any issues with the program or you have any suggestions, email me [zsafargalieva@gmail.com](href="mailto:zsafargalieva@gmail.com")_
+_If you have any issues with the program or you have any suggestions, email me <zsafargalieva@gmail.com>_
 
 ## Technologies Used
 
@@ -45,6 +45,6 @@ _HTML, CSS, JavaScript, jQuery 3.4.1, Bootstrap_
 
 ### License
 
-*Licensed under [MIT](href="https://en.wikipedia.org/wiki/MIT_License") license*
+*Licensed under [MIT]<https://en.wikipedia.org/wiki/MIT_License> license*
 
 Copyright (c) 2020 **_Zinfira Safargalieva_**

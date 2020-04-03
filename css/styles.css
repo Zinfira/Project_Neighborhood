@@ -37,3 +37,7 @@ h1 {
 p {
   font-family: Comic Sans;
 }
+
+#reversed { 
+  margin-top: 20px;
+}

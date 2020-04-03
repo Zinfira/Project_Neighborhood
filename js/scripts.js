@@ -31,11 +31,14 @@ function numberReplace(userNumber, nameInput) {
 
 }
 
+// flipped 
+function flipIt(result) {
+  var newLook = result.reverse();
+  return newLook;
+};
 
 
-
-
-//UI logic
+// UI logic
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
@@ -46,6 +49,11 @@ $(document).ready(function() {
     
     $("#result").text(result);
     $("#result").show();
+    $("#reversed").show();
+    $("#reversed-result").click(function() {
+      var reversedOutput = flipIt(result)
+      $("#result").text(reversedOutput);
+    });
 
     
   });
