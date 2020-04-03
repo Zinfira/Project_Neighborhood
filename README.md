@@ -9,6 +9,15 @@
 _This program takes a number inputted by a user and counts up to that number, but output of certain numbers based on specifications._
 
 ## Project Specifications
+| Behavior | Input | Output| 
+|----------|-------|-------|
+|Return string of numbers counting up from 0 to users number | 5 | 0,1,2,3,4,5|
+|All numbers that have three return "Won't you be my neighbor?" | 4 | 0,1,2,Won't you be my neighbor?, 4 |
+|All numbers that have 2 but not 3 return "Boop!"| 2 | 0,1,"Boop!"|
+|All numbers that have 2 and 3| 23 | 0,1,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,1,1,Boop!,Won't you be my neighbor?,1,1,1,1,1,1,Boop!,Boop!,Boop!,Won't you be my neighbor? |
+|All numbers that have 1 but not 2 or 3, return "Beep!" | 11 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep! |
+|All numbers that have 1 and 2 and 3 | 23 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor? |
+
 
 ## Setup/Installation Requirements
 
