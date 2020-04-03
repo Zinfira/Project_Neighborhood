@@ -1,9 +1,16 @@
 // 
-function range(start, end) {
-  return Array(end - start + 1).fill().map((_, idx) => start + idx)
+
+
+function numberReplace(userNumber) {
+  var numArray = [];
+  for (var i=0; i <= userNumber; i++) {
+    numArray.push(i);
+  }
+  return numArray;
+  console.log(numArray);
 }
-var result = range(9, 18); // [9, 10, 11, 12, 13, 14, 15, 16, 17, 18]
-console.log(result);
+
+
 
 
 
@@ -11,10 +18,12 @@ console.log(result);
 $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
-    var number = parseInt($("input#numInput").val());
-    var result = range(start,end);
-    if (result) {
-      $(".result").text(result);
-    }
+    var userNumber = $("input#numInput").val();
+    var result = numberReplace(userNumber);
+    
+    $("#result").text(result);
+    $("#result").show();
+
+    
   });
 });
