@@ -17,6 +17,8 @@ _This program takes a number inputted by a user and counts up to that number, bu
 |All numbers that have 2 and 3| 23 | 0,1,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,1,1,Boop!,Won't you be my neighbor?,1,1,1,1,1,1,Boop!,Boop!,Boop!,Won't you be my neighbor? |
 |All numbers that have 1 but not 2 or 3, return "Beep!" | 11 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep! |
 |All numbers that have 1 and 2 and 3 | 23 | 0,Beep!,Boop!,Won't you be my neighbor?,4,5,6,7,8,9,Beep!,Beep!,Boop!,Won't you be my neighbor?,Beep!,Beep!,Beep!,Beep!,Beep!,Beep!,Boop!,Boop!,Boop!,Won't you be my neighbor? |
+|When user input number divisible by 3, it returns with input name | 15 | 0, Beep!, Boop!, Won't you be my neighbor, Zinfira?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor, Zinfira?, Beep!, Beep! |
+|When user input number not divisible by 3| 16 | 0, Beep!, Boop!, Won't you be my neighbor?, 4, 5, 6, 7, 8, 9, Beep!, Beep!, Boop!, Won't you be my neighbor?, Beep!, Beep!, Beep!
 
 
 ## Setup/Installation Requirements

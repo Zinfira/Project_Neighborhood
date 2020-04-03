@@ -3,14 +3,16 @@
 
 function numberReplace(userNumber, nameInput) {
   var numArray = [];
+
+  
   if (userNumber < 0) {
     return ("Please enter the positive number");
-  } else { 
+  } else  { 
 
     for (var i=0;  i <= userNumber;  i++) {
       var addString = i.toString();
       if (addString.includes("3") && (userNumber % 3 === 0)) {
-        numArray.push(" Won't you be my neighbor, " + nameInput + " ?");
+        numArray.push(" Won't you be my neighbor, " + nameInput + "?");
       } else if (addString.includes("3")) {
         numArray.push(" Won't you be my neighbor?"); 
       } else if (addString.includes("2")) {
