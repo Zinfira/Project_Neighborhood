@@ -1,7 +1,7 @@
 // Business logic
 
 
-function numberReplace(userNumber) {
+function numberReplace(userNumber, nameInput) {
   var numArray = [];
   if (userNumber < 0) {
     return ("Please enter the positive number");
@@ -11,7 +11,7 @@ function numberReplace(userNumber) {
       var addString = i.toString();
       
       if (addString.includes("3")) {
-        numArray.push(" Won't you be my neighbor?");
+        numArray.push(" Won't you be my neighbor, " + nameInput + " ?");
       } else if (addString.includes("2")) {
         numArray.push(" Boop!");
       } else if (addString.includes("1")) {
@@ -37,8 +37,9 @@ $(document).ready(function() {
   $("form#form1").submit(function(event) {
     event.preventDefault();
     var userNumber = $("input#numInput").val();
-    var result = numberReplace(userNumber);
-    var name = $("input#name").val();
+    var nameInput = $("input#name").val();
+    var result = numberReplace(userNumber, nameInput);
+    
     
     $("#result").text(result);
     $("#result").show();
