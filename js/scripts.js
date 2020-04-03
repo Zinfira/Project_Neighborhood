@@ -8,6 +8,8 @@ function numberReplace(userNumber) {
     var addString = i.toString();
     if (addString.includes("3")) {
       numArray.push("Won't you be my neighbor?");
+    } else if (addString.includes("2")) {
+      numArray.push("Boop");
     } else {
     numArray.push(i);
     console.log(numArray);
