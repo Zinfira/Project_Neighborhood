@@ -3,11 +3,20 @@
 
 function numberReplace(userNumber) {
   var numArray = [];
+  
   for (var i=0; i <= userNumber; i++) {
+    var addString = i.toString();
+    if (addString.includes("3")) {
+      numArray.push("Won't you be my neighbor?");
+    } else {
     numArray.push(i);
-  }
+    console.log(numArray);
+    }
+  };
   return numArray;
-  console.log(numArray);
+
+  
+
 }
 
 
