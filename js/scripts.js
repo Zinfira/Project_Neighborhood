@@ -7,9 +7,12 @@ function numberReplace(userNumber) {
     return ("Please enter the positive number");
   } else { 
 
-  
+  var text = "";
+  var i;
     for (var i=0; i <= userNumber; i++) {
       var addString = i.toString();
+      text += " " + i + "<br>";
+
       if (addString.includes("3")) {
         numArray.push("Won't you be my neighbor?");
       } else if (addString.includes("2")) {
