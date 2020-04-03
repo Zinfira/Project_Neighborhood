@@ -38,6 +38,7 @@ $(document).ready(function() {
     event.preventDefault();
     var userNumber = $("input#numInput").val();
     var result = numberReplace(userNumber);
+    var name = $("input#name").val();
     
     $("#result").text(result);
     $("#result").show();

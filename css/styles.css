@@ -30,5 +30,10 @@ h1 {
   margin: 30px;
 }
 
+h1 {
+  font-family: Apple Chancery;
+}
 
-
+p {
+  font-family: Comic Sans;
+}
